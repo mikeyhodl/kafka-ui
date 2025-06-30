@@ -10,10 +10,10 @@ dependencies:
     version: 0.19.2(@types/react@18.2.21)(react-dom@18.1.0)(react@18.2.0)
   '@hookform/error-message':
     specifier: ^2.0.0
-    version: 2.0.1(react-dom@18.1.0)(react-hook-form@7.43.1)(react@18.2.0)
+    version: 2.0.1(react-dom@18.1.0)(react-hook-form@7.59.0)(react@18.2.0)
   '@hookform/resolvers':
     specifier: ^2.7.1
-    version: 2.8.9(react-hook-form@7.43.1)
+    version: 2.8.9(react-hook-form@7.59.0)
   '@microsoft/fetch-event-source':
     specifier: ^2.0.1
     version: 2.0.1
@@ -87,11 +87,11 @@ dependencies:
     specifier: ^3.1.4
     version: 3.1.4(react@18.2.0)
   react-hook-form:
-    specifier: 7.43.1
-    version: 7.43.1(react@18.2.0)
+    specifier: 7.59.0
+    version: 7.59.0(react@18.2.0)
   react-hot-toast:
     specifier: ^2.4.0
-    version: 2.4.1(csstype@3.1.2)(react-dom@18.1.0)(react@18.2.0)
+    version: 2.4.1(csstype@3.1.3)(react-dom@18.1.0)(react@18.2.0)
   react-is:
     specifier: ^18.2.0
     version: 18.2.0
@@ -935,7 +935,7 @@ packages:
       - '@types/react'
     dev: false
 
-  /@hookform/error-message@2.0.1(react-dom@18.1.0)(react-hook-form@7.43.1)(react@18.2.0):
+  /@hookform/error-message@2.0.1(react-dom@18.1.0)(react-hook-form@7.59.0)(react@18.2.0):
     resolution: {integrity: sha512-U410sAr92xgxT1idlu9WWOVjndxLdgPUHEB8Schr27C9eh7/xUnITWpCMF93s+lGiG++D4JnbSnrb5A21AdSNg==}
     peerDependencies:
       react: '>=16.8.0'
@@ -944,15 +944,15 @@ packages:
     dependencies:
       react: 18.2.0
       react-dom: 18.1.0(react@18.2.0)
-      react-hook-form: 7.43.1(react@18.2.0)
+      react-hook-form: 7.59.0(react@18.2.0)
     dev: false
 
-  /@hookform/resolvers@2.8.9(react-hook-form@7.43.1):
+  /@hookform/resolvers@2.8.9(react-hook-form@7.59.0):
     resolution: {integrity: sha512-IXwGpjewxScF4N2kuyYDip6ABqH4lCg9n1f1mp0vbmKik+u+nestpbtdEs6U1WQZxwaoK/2APv1+MEr4czX7XA==}
     peerDependencies:
       react-hook-form: ^7.0.0
     dependencies:
-      react-hook-form: 7.43.1(react@18.2.0)
+      react-hook-form: 7.59.0(react@18.2.0)
     dev: false
 
   /@humanwhocodes/config-array@0.11.11:
@@ -2606,7 +2606,7 @@ packages:
       normalize-path: 3.0.0
       readdirp: 3.6.0
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
 
   /ci-info@3.3.1:
     resolution: {integrity: sha512-SXgeMX9VwDe7iFFaEWkA5AstuER9YKqy4EhHqr4DVqkwmD9rpVimkMKWHdjn30Ja45txyjhSn63lVX69eVCckg==}
@@ -2807,6 +2807,10 @@ packages:
 
   /csstype@3.1.2:
     resolution: {integrity: sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==}
+
+  /csstype@3.1.3:
+    resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==}
+    dev: false
 
   /damerau-levenshtein@1.0.8:
     resolution: {integrity: sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==}
@@ -3741,8 +3745,8 @@ packages:
   /fs.realpath@1.0.0:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
 
-  /fsevents@2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
+  /fsevents@2.3.3:
+    resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
     requiresBuild: true
@@ -3903,12 +3907,12 @@ packages:
   /globrex@0.1.2:
     resolution: {integrity: sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg==}
 
-  /goober@2.1.10(csstype@3.1.2):
+  /goober@2.1.10(csstype@3.1.3):
     resolution: {integrity: sha512-7PpuQMH10jaTWm33sQgBQvz45pHR8N4l3Cu3WMGEWmHShAcTuuP7I+5/DwKo39fwti5A80WAjvqgz6SSlgWmGA==}
     peerDependencies:
       csstype: ^3.0.10
     dependencies:
-      csstype: 3.1.2
+      csstype: 3.1.3
     dev: false
 
   /gopd@1.0.1:
@@ -4544,7 +4548,7 @@ packages:
       micromatch: 4.0.5
       walker: 1.0.8
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: false
 
   /jest-leak-detector@29.6.3:
@@ -5702,23 +5706,23 @@ packages:
   /react-fast-compare@3.2.0:
     resolution: {integrity: sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==}
 
-  /react-hook-form@7.43.1(react@18.2.0):
-    resolution: {integrity: sha512-+s3+s8LLytRMriwwuSqeLStVjRXFGxgjjx2jED7Z+wz1J/88vpxieRQGvJVvzrzVxshZ0BRuocFERb779m2kNg==}
-    engines: {node: '>=12.22.0'}
+  /react-hook-form@7.59.0(react@18.2.0):
+    resolution: {integrity: sha512-kmkek2/8grqarTJExFNjy+RXDIP8yM+QTl3QL6m6Q8b2bih4ltmiXxH7T9n+yXNK477xPh5yZT/6vD8sYGzJTA==}
+    engines: {node: '>=18.0.0'}
     peerDependencies:
-      react: ^16.8.0 || ^17 || ^18
+      react: ^16.8.0 || ^17 || ^18 || ^19
     dependencies:
       react: 18.2.0
     dev: false
 
-  /react-hot-toast@2.4.1(csstype@3.1.2)(react-dom@18.1.0)(react@18.2.0):
+  /react-hot-toast@2.4.1(csstype@3.1.3)(react-dom@18.1.0)(react@18.2.0):
     resolution: {integrity: sha512-j8z+cQbWIM5LY37pR6uZR6D4LfseplqnuAO4co4u8917hBUvXlEqyP1ZzqVLcqoyUesZZv/ImreoCeHVDpE5pQ==}
     engines: {node: '>=10'}
     peerDependencies:
       react: '>=16'
       react-dom: '>=16'
     dependencies:
-      goober: 2.1.10(csstype@3.1.2)
+      goober: 2.1.10(csstype@3.1.3)
       react: 18.2.0
       react-dom: 18.1.0(react@18.2.0)
     transitivePeerDependencies:
@@ -6022,7 +6026,7 @@ packages:
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
 
   /run-async@2.4.1:
     resolution: {integrity: sha512-tvVnVv01b8c1RrA6Ep7JkStj85Guv/YrMcwqYQnwjsAS2cTmmPGBBjAjpCW7RrSodNSoE2/qg9O4bceNvUuDgQ==}
@@ -6755,7 +6759,7 @@ packages:
       rollup: 3.7.3
       sass: 1.66.1
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
 
   /w3c-hr-time@1.0.2:
     resolution: {integrity: sha512-z8P5DvDNjKDoFIHK7q8r8lackT6l+jo/Ye3HOle7l9nICP9lf1Ci25fy9vHd0JOWewkIFzXIEig3TdKT7JQ5fQ==}
